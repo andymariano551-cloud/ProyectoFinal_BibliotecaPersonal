@@ -8,7 +8,7 @@ namespace ProyectoFinal_BibliotecaPersonal.Services
 {
     public class DatabaseService
     {
-        private SQLiteAsyncConnection _database;
+        private SQLiteAsyncConnection _database = null!;
 
         public DatabaseService()
         {
