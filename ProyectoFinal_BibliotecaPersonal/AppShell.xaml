@@ -3,25 +3,18 @@
     x:Class="ProyectoFinal_BibliotecaPersonal.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ProyectoFinal_BibliotecaPersonal"
     xmlns:views="clr-namespace:ProyectoFinal_BibliotecaPersonal.Views"
-    Shell.FlyoutBehavior="Flyout">
-
-    <Shell.FlyoutHeader>
-        <Grid BackgroundColor="#512BD4" HeightRequest="150">
-            <Label Text="Mi Biblioteca" 
-                   TextColor="White" 
-                   FontAttributes="Bold" 
-                   FontSize="24"
-                   HorizontalOptions="Center" 
-                   VerticalOptions="Center"/>
-        </Grid>
-    </Shell.FlyoutHeader>
+    Shell.FlyoutBehavior="Flyout"
+    Shell.BackgroundColor="#1A237E"
+    Shell.ForegroundColor="White"
+    Shell.TitleColor="White">
 
     <FlyoutItem Title="Biblioteca">
         <ShellContent ContentTemplate="{DataTemplate views:LibraryPage}" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Buscar">
+    <FlyoutItem Title="Buscar Libro">
         <ShellContent ContentTemplate="{DataTemplate views:SearchPage}" />
     </FlyoutItem>
 

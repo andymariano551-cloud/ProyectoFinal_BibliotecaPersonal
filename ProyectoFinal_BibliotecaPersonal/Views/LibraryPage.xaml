@@ -2,12 +2,49 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal_BibliotecaPersonal.Views.LibraryPage"
-             Title="Mi Biblioteca">
+             Title="Mi Biblioteca"
+             BackgroundColor="#F0F2F5">
 
-    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
-        <Label Text="Aquí irá la lista de libros (CollectionView)" 
-               FontSize="18" 
-               HorizontalTextAlignment="Center" />
-    </VerticalStackLayout>
+    <Grid RowDefinitions="Auto,*">
+        <Border Grid.Row="0" StrokeThickness="0" HeightRequest="150">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#1A237E" Offset="0.1" />
+                    <GradientStop Color="#3949AB" Offset="1.0" />
+                </LinearGradientBrush>
+            </Border.Background>
 
+            <VerticalStackLayout Padding="25" VerticalOptions="End">
+                <Label Text="EXPLORAR" TextColor="#B0BEC5" FontSize="12" FontAttributes="Bold" CharacterSpacing="2" />
+                <Label Text="Tu Colección" TextColor="White" FontSize="32" FontAttributes="Bold" />
+            </VerticalStackLayout>
+        </Border>
+
+        <CollectionView Grid.Row="1" x:Name="listaLibros" Margin="20,-20,20,0">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="15" />
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame CornerRadius="15" HasShadow="True" BorderColor="Transparent" Padding="0" BackgroundColor="White">
+                        <Grid ColumnDefinitions="100,*" HeightRequest="120">
+                            <Image Source="dotnet_bot.png" Aspect="AspectFill" Grid.Column="0" />
+                            <VerticalStackLayout Grid.Column="1" Padding="15" VerticalOptions="Center">
+                                <Label Text="{Binding Title}" FontSize="18" FontAttributes="Bold" TextColor="#263238" MaxLines="1" />
+                                <Label Text="{Binding Author}" FontSize="14" TextColor="#78909C" />
+                                <Border BackgroundColor="#E3F2FD" StrokeShape="RoundRectangle 5" Padding="8,2" HorizontalOptions="Start" Margin="0,8,0,0">
+                                    <Label Text="{Binding Genre}" FontSize="10" TextColor="#1976D2" FontAttributes="Bold" />
+                                </Border>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Grid.Row="1" Text="+" BackgroundColor="#FF4081" TextColor="White" FontSize="28" 
+                CornerRadius="30" HeightRequest="60" WidthRequest="60" 
+                HorizontalOptions="End" VerticalOptions="End" Margin="25"
+                Clicked="OnAddBookClicked" />
+    </Grid>
 </ContentPage>

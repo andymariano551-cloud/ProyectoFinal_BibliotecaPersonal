@@ -2,11 +2,39 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal_BibliotecaPersonal.Views.StatisticsPage"
-             Title="NewPage1">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Estadísticas">
+
+    <ScrollView BackgroundColor="#F8F9FA">
+        <VerticalStackLayout Padding="20" Spacing="20">
+            <Label Text="Resumen de Lectura" FontSize="22" FontAttributes="Bold" TextColor="#212121" />
+
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="15">
+                <Frame Grid.Column="0" BackgroundColor="#6200EE" CornerRadius="15" Padding="20" HasShadow="False">
+                    <VerticalStackLayout>
+                        <Label Text="Total" TextColor="#D1C4E9" FontSize="12" />
+                        <Label Text="42" TextColor="White" FontSize="26" FontAttributes="Bold" />
+                        <Label Text="Libros" TextColor="White" FontSize="14" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame Grid.Column="1" BackgroundColor="#03DAC5" CornerRadius="15" Padding="20" HasShadow="False">
+                    <VerticalStackLayout>
+                        <Label Text="Leídos" TextColor="#004D40" FontSize="12" />
+                        <Label Text="12" TextColor="#004D40" FontSize="26" FontAttributes="Bold" />
+                        <Label Text="Este mes" TextColor="#004D40" FontSize="14" />
+                    </VerticalStackLayout>
+                </Frame>
+            </Grid>
+
+            <Frame CornerRadius="15" Padding="20" BackgroundColor="White" HasShadow="False">
+                <VerticalStackLayout Spacing="15">
+                    <Label Text="Categorías Favoritas" FontAttributes="Bold" />
+                    <ProgressBar Progress="0.8" ProgressColor="#6200EE" />
+                    <Label Text="Ficción (80%)" FontSize="12" />
+                    <ProgressBar Progress="0.4" ProgressColor="#03DAC5" />
+                    <Label Text="Terror (40%)" FontSize="12" />
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

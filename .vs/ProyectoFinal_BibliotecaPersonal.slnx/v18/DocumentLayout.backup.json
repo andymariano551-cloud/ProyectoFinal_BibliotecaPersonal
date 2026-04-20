@@ -1,30 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\ProyectoFinal_BibliotecaPersonal\\",
+  "WorkspaceRootPath": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\projects\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\views\\librarypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\views\\librarypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\projects\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\views\\bookdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\views\\bookdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\projects\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\views\\librarypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\views\\librarypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\projects\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\projects\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\projects\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\views\\statisticspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\views\\statisticspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\views\\bookdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\views\\bookdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\views\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\views\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\views\\addbookpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\views\\addbookpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\views\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\views\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\views\\addbookpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\views\\addbookpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\views\\statisticspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\views\\statisticspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|c:\\users\\wandy\\desktop\\final\\proyectofinal_bibliotecapersonal\\proyectofinal_bibliotecapersonal\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE043462-E77A-A1F9-ADFE-4556BEB0C191}|ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj|solutionrelative:proyectofinal_bibliotecapersonal\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,88 +86,247 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SearchPage.xaml",
-              "DocumentMoniker": "C:\\Projects\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\SearchPage.xaml",
-              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\SearchPage.xaml",
-              "ToolTip": "C:\\Projects\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\SearchPage.xaml",
-              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\SearchPage.xaml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAowCUAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-20T13:49:05.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SearchPage.xaml.cs",
-              "DocumentMoniker": "C:\\Projects\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\SearchPage.xaml.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\SearchPage.xaml.cs",
-              "ToolTip": "C:\\Projects\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\SearchPage.xaml.cs",
-              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\SearchPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T13:49:03.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApiService.cs",
-              "DocumentMoniker": "C:\\Projects\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Services\\ApiService.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Services\\ApiService.cs",
-              "ToolTip": "C:\\Projects\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Services\\ApiService.cs",
-              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Services\\ApiService.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAiwI8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T13:46:32.242Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DatabaseService.cs",
-              "DocumentMoniker": "C:\\Projects\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Services\\DatabaseService.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Services\\DatabaseService.cs",
-              "ToolTip": "C:\\Projects\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Services\\DatabaseService.cs",
-              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Services\\DatabaseService.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAADwvy8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T17:47:33.144Z",
+              "DocumentIndex": 4,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T21:53:14.425Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StatisticsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\StatisticsPage.xaml",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Views\\StatisticsPage.xaml",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\StatisticsPage.xaml",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Views\\StatisticsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T15:22:42.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookDetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\BookDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Views\\BookDetailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\BookDetailPage.xaml.cs",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Views\\BookDetailPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T15:32:24.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibraryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\LibraryPage.xaml.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Views\\LibraryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\LibraryPage.xaml.cs",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Views\\LibraryPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T15:25:29.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\AppShell.xaml",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\AppShell.xaml",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T15:18:56.153Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Projects\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Models\\Book.cs",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Models\\Book.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Models\\Book.cs",
-              "ToolTip": "C:\\Projects\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Models\\Book.cs",
               "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Models\\Book.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCMAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-19T17:46:59.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "LibraryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\LibraryPage.xaml",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Views\\LibraryPage.xaml",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\LibraryPage.xaml",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Views\\LibraryPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T15:21:23.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookDetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\BookDetailPage.xaml",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Views\\BookDetailPage.xaml",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\BookDetailPage.xaml",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Views\\BookDetailPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T15:22:12.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddBookPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\AddBookPage.xaml",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Views\\AddBookPage.xaml",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\AddBookPage.xaml",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Views\\AddBookPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T15:23:48.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SearchPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\SearchPage.xaml",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Views\\SearchPage.xaml",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\SearchPage.xaml",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Views\\SearchPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T13:49:05.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SearchPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\SearchPage.xaml.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Views\\SearchPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\SearchPage.xaml.cs",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Views\\SearchPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T13:49:03.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddBookPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\AddBookPage.xaml.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Views\\AddBookPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\AddBookPage.xaml.cs",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Views\\AddBookPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T15:35:26.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StatisticsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\StatisticsPage.xaml.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Views\\StatisticsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Views\\StatisticsPage.xaml.cs",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Views\\StatisticsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T15:32:22.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\AppShell.xaml.cs",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T15:15:30.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\MauiProgram.cs",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T15:17:31.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\MainPage.xaml",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T15:19:14.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Services\\ApiService.cs",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Services\\ApiService.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAiwI8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T13:46:32.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ProyectoFinal_BibliotecaPersonal.csproj",
-              "DocumentMoniker": "C:\\Projects\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj",
               "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj",
-              "ToolTip": "C:\\Projects\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj",
               "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-04-19T17:46:38.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_BibliotecaPersonal\\Services\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\wandy\\Desktop\\Final\\ProyectoFinal_BibliotecaPersonal\\ProyectoFinal_BibliotecaPersonal\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "ProyectoFinal_BibliotecaPersonal\\Services\\DatabaseService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T17:47:33.144Z"
             }
           ]
         }
