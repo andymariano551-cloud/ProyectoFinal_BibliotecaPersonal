@@ -1,0 +1,38 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal_BibliotecaPersonal.Views.SearchPage">
+
+    <VerticalStackLayout Padding="20" Spacing="10">
+
+        <Entry x:Name="txtBuscar" Placeholder="Buscar libro..." />
+
+        <Button Text="Buscar" Clicked="OnBuscarClicked"/>
+
+        <CollectionView x:Name="listaLibros">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Stroke="Gray" Padding="10" Margin="5">
+
+                        <HorizontalStackLayout>
+
+                            <Image Source="{Binding CoverUrl}" WidthRequest="60" HeightRequest="90"/>
+
+                            <VerticalStackLayout>
+                                <Label Text="{Binding Title}" FontAttributes="Bold"/>
+                                <Label Text="{Binding Author}" FontSize="12"/>
+
+                                <Button Text="Guardar"
+                                        Clicked="OnGuardarClicked"/>
+                            </VerticalStackLayout>
+
+                        </HorizontalStackLayout>
+
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>

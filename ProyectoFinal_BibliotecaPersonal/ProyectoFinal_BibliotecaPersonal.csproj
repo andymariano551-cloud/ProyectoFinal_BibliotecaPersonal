@@ -72,4 +72,34 @@
 		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.11" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="Views\LibraryPage.xaml.cs">
+	    <DependentUpon>LibraryPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\BookDetailPage.xaml.cs">
+	    <DependentUpon>BookDetailPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\AddBookPage.xaml.cs">
+	    <DependentUpon>AddBookPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\StatisticsPage.xaml.cs">
+	    <DependentUpon>StatisticsPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\LibraryPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\BookDetailPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\AddBookPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\StatisticsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
