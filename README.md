@@ -51,14 +51,14 @@ SCREENSHOTS PRINCIPALES
 
 
  ## Pantalla principal
-![Home](imagen4.jpge)
+![Home](imagen4.jpeg)
 
 
 ## Agregar Libros
-![Add Book](imagenes/imagen3.jpeg)
+![Add Book](imagen3.jpeg)
 
 ##  Buscar libros
-![Search](imagenes/imagen2.jpeg)
+![Search](imagen2.jpeg)
 
 ## Estadisticas
-![Stats](imagenes/imagen1.jpeg)
+![Stats](imagen1.jpeg)
