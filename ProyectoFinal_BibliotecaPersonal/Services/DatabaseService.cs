@@ -41,7 +41,27 @@ namespace ProyectoFinal_BibliotecaPersonal.Services
             return await _database.Table<Book>().Where(i => i.Id == id).FirstOrDefaultAsync();
         }
 
+        // Método para buscar libros localmente por título o autor
+        // Método para buscar libros localmente por título o autor
+        public async Task<List<Book>> SearchBooksLocalAsync(string query)
+        {
+            await InitAsync();
+            if (string.IsNullOrWhiteSpace(query))
+            {
+                return await GetBooksAsync();
+            }
+
+            query = query.ToLower();
+
+            // CORRECCIÓN AQUÍ: Cambiamos _databaseService por _database
+            return await _database.Table<Book>()
+                                  .Where(b => b.Title.ToLower().Contains(query) ||
+                                              b.Author.ToLower().Contains(query))
+                                  .ToListAsync();
+        }
+
         // 3. Insertar / Actualizar inteligente (SaveBookAsync)
+
         public async Task<int> SaveBookAsync(Book book)
         {
             await InitAsync();

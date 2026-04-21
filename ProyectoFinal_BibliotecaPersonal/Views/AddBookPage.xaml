@@ -1,12 +1,56 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:ProyectoFinal_BibliotecaPersonal.ViewModels"
              x:Class="ProyectoFinal_BibliotecaPersonal.Views.AddBookPage"
-             Title="NewPage1">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Agregar Nuevo Libro"
+             BackgroundColor="#F0F2F5">
+
+    <ContentPage.BindingContext>
+        <vm:AddBookViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <Border BackgroundColor="White" Padding="25" StrokeShape="RoundRectangle 15" StrokeThickness="0">
+                <VerticalStackLayout Spacing="15">
+
+                    <Label Text="Detalles del Libro" FontSize="22" FontAttributes="Bold" TextColor="#263238" Margin="0,0,0,10"/>
+
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Título" FontSize="12" TextColor="#78909C" FontAttributes="Bold"/>
+                        <Entry Text="{Binding Title}" Placeholder="Ej. El Hobbit" BackgroundColor="#F8F9FA" />
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Autor" FontSize="12" TextColor="#78909C" FontAttributes="Bold"/>
+                        <Entry Text="{Binding Author}" Placeholder="Ej. J.R.R. Tolkien" BackgroundColor="#F8F9FA" />
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Género" FontSize="12" TextColor="#78909C" FontAttributes="Bold"/>
+                        <Entry Text="{Binding Genre}" Placeholder="Ej. Fantasía" BackgroundColor="#F8F9FA" />
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Número de Páginas" FontSize="12" TextColor="#78909C" FontAttributes="Bold"/>
+                        <Entry Text="{Binding Pages}" Placeholder="Ej. 310" Keyboard="Numeric" BackgroundColor="#F8F9FA" />
+                    </VerticalStackLayout>
+
+                    <Button Text="Guardar en Biblioteca"
+                            Command="{Binding SaveBookCommand}"
+                            BackgroundColor="#FF4081"
+                            TextColor="White"
+                            CornerRadius="25"
+                            Margin="0,20,0,0"
+                            HeightRequest="50"
+                            FontSize="16"
+                            FontAttributes="Bold" />
+
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
