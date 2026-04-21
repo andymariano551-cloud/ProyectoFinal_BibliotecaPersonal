@@ -51,7 +51,7 @@ SCREENSHOTS PRINCIPALES
 
 
  ## Pantalla principal
-imagen4.jpge
+![Home](imagen4.jpge)
 
 
 ## Agregar Libros
