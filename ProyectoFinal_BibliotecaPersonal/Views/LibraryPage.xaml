@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:ProyectoFinal_BibliotecaPersonal.ViewModels"
              x:Class="ProyectoFinal_BibliotecaPersonal.Views.LibraryPage"
              Title="Mi Biblioteca"
              BackgroundColor="#F0F2F5">
+
+    <ContentPage.BindingContext>
+        <vm:LibraryViewModel />
+    </ContentPage.BindingContext>
 
     <Grid RowDefinitions="Auto,*">
         <Border Grid.Row="0" StrokeThickness="0" HeightRequest="150">
@@ -20,7 +25,9 @@
             </VerticalStackLayout>
         </Border>
 
-        <CollectionView Grid.Row="1" x:Name="listaLibros" Margin="20,-20,20,0">
+        <CollectionView Grid.Row="1" 
+                        ItemsSource="{Binding Books}"
+                        Margin="20,-20,20,0">
             <CollectionView.ItemsLayout>
                 <LinearItemsLayout Orientation="Vertical" ItemSpacing="15" />
             </CollectionView.ItemsLayout>
@@ -28,7 +35,10 @@
                 <DataTemplate>
                     <Frame CornerRadius="15" HasShadow="True" BorderColor="Transparent" Padding="0" BackgroundColor="White">
                         <Grid ColumnDefinitions="100,*" HeightRequest="120">
-                            <Image Source="dotnet_bot.png" Aspect="AspectFill" Grid.Column="0" />
+                            <Image Source="{Binding CoverUrl}" 
+                                   Aspect="AspectFill" 
+                                   Grid.Column="0" />
+
                             <VerticalStackLayout Grid.Column="1" Padding="15" VerticalOptions="Center">
                                 <Label Text="{Binding Title}" FontSize="18" FontAttributes="Bold" TextColor="#263238" MaxLines="1" />
                                 <Label Text="{Binding Author}" FontSize="14" TextColor="#78909C" />
@@ -42,9 +52,10 @@
             </CollectionView.ItemTemplate>
         </CollectionView>
 
-        <Button Grid.Row="1" Text="+" BackgroundColor="#FF4081" TextColor="White" FontSize="28" 
+        <Button Grid.Row="1" Text="+" 
+                Command="{Binding AddBookCommand}"
+                BackgroundColor="#FF4081" TextColor="White" FontSize="28" 
                 CornerRadius="30" HeightRequest="60" WidthRequest="60" 
-                HorizontalOptions="End" VerticalOptions="End" Margin="25"
-                Clicked="OnAddBookClicked" />
+                HorizontalOptions="End" VerticalOptions="End" Margin="25" />
     </Grid>
 </ContentPage>

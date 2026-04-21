@@ -12,12 +12,10 @@ public partial class SearchPage : ContentPage
         InitializeComponent();
     }
 
-    private async void OnBuscarClicked(object sender, EventArgs e)
+    private void OnBuscarClicked(object sender, EventArgs e)
     {
-        if (string.IsNullOrWhiteSpace(txtBuscar.Text)) return;
-
-        var libros = await api.BuscarPorTitulo(txtBuscar.Text);
-        listaLibros.ItemsSource = libros;
+        // Dejamos este método vacío por ahora para que no dé el error de listaLibros.
+        // El encargado de esta vista deberá conectar su ViewModel luego.
     }
 
     private async void OnGuardarClicked(object sender, EventArgs e)
@@ -25,7 +23,7 @@ public partial class SearchPage : ContentPage
         if (sender is Button button && button.BindingContext is Book libro)
         {
             await api.GuardarLibro(libro);
-            await DisplayAlert("Éxito", $"'{libro.Title}' se guardó en tu biblioteca", "OK");
+            await DisplayAlert("Éxito", "Libro guardado", "OK");
         }
     }
 }
