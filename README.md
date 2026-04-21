@@ -49,10 +49,10 @@ Haz clic en el botón verde ▶️ “Iniciar”
 SCREENSHOTS PRINCIPALES
 
  ## Pantalla principal
-(imagenes/iamgen4.jpeg)
+![Home](imagenes/imagen4.jpeg)
 
 ## Agregar Libros
-![Add Book] (imagenes/imagen3.jpeg)
+![Add Book](imagenes/imagen3.jpeg)
 
 ##  Buscar libros
 ![Search](imagenes/imagen2.jpeg)
