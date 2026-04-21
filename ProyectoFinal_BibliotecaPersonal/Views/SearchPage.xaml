@@ -1,37 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ProyectoFinal_BibliotecaPersonal.Views.SearchPage">
+             xmlns:vm="clr-namespace:ProyectoFinal_BibliotecaPersonal.ViewModels"
+             x:Class="ProyectoFinal_BibliotecaPersonal.Views.SearchPage"
+             Title="Buscar Libros"
+             BackgroundColor="#F0F2F5">
 
-    <VerticalStackLayout Padding="20" Spacing="10">
+    <ContentPage.BindingContext>
+        <vm:SearchViewModel />
+    </ContentPage.BindingContext>
 
-        <Entry x:Name="txtBuscar" Placeholder="Buscar libro..." />
+    <VerticalStackLayout Padding="20" Spacing="15">
 
-        <Button Text="Buscar" Clicked="OnBuscarClicked"/>
+        <Border StrokeShape="RoundRectangle 25" Padding="5,0" BackgroundColor="White" StrokeThickness="0">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,2" Radius="5" Opacity="0.1" />
+            </Border.Shadow>
+            <Grid ColumnDefinitions="*,Auto" VerticalOptions="Center">
+                <Entry Grid.Column="0" 
+                       Text="{Binding SearchQuery}" 
+                       Placeholder="Buscar por título o autor..." 
+                       BackgroundColor="Transparent"
+                       Margin="10,0"
+                       VerticalOptions="Center"
+                       ReturnType="Search"
+                       ReturnCommand="{Binding PerformSearchCommand}"/>
+                <Button Grid.Column="1" 
+                        Text="🔍" 
+                        Command="{Binding PerformSearchCommand}"
+                        BackgroundColor="Transparent"
+                        TextColor="#3949AB"
+                        FontSize="18"
+                        VerticalOptions="Center"/>
+            </Grid>
+        </Border>
 
-        <CollectionView x:Name="listaLibros">
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+            <Label Text="Buscar en:" VerticalOptions="Center" TextColor="#78909C"/>
+            <Label Text="Mi Biblioteca" VerticalOptions="Center" FontAttributes="Bold" TextColor="#1A237E"/>
+            <Switch IsToggled="{Binding IsLocalSearch}" OnColor="#3949AB" VerticalOptions="Center"/>
+            <Label Text="Internet (API)" VerticalOptions="Center" FontAttributes="Bold" TextColor="#1A237E"/>
+        </HorizontalStackLayout>
 
+        <CollectionView ItemsSource="{Binding SearchResults}" Margin="0,10,0,0">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Border Stroke="Gray" Padding="10" Margin="5">
+                    <Border Stroke="Gray" StrokeShape="RoundRectangle 10" Padding="10" Margin="0,0,0,10" BackgroundColor="White">
+                        <Border.Shadow>
+                            <Shadow Brush="Black" Offset="0,2" Radius="5" Opacity="0.1" />
+                        </Border.Shadow>
 
-                        <HorizontalStackLayout>
+                        <Grid ColumnDefinitions="70,*" ColumnSpacing="15">
 
-                            <Image Source="{Binding CoverUrl}" WidthRequest="60" HeightRequest="90"/>
+                            <Image Grid.Column="0" 
+                                   Source="{Binding CoverUrl, TargetNullValue='portada_por_defecto.png', FallbackValue='portada_por_defecto.png'}" 
+                                   WidthRequest="70" 
+                                   HeightRequest="100"
+                                   Aspect="AspectFill" />
 
-                            <VerticalStackLayout>
-                                <Label Text="{Binding Title}" FontAttributes="Bold"/>
-                                <Label Text="{Binding Author}" FontSize="12"/>
-
-                                <Button Text="Guardar"
-                                        Clicked="OnGuardarClicked"/>
+                            <VerticalStackLayout Grid.Column="1" Spacing="5" VerticalOptions="Center">
+                                <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="16" TextColor="#263238" MaxLines="2"/>
+                                <Label Text="{Binding Author}" FontSize="13" TextColor="#78909C"/>
+                                <Label Text="{Binding Genre}" FontSize="11" TextColor="#1976D2" Margin="0,5,0,0"/>
                             </VerticalStackLayout>
-
-                        </HorizontalStackLayout>
-
+                        </Grid>
                     </Border>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
-
         </CollectionView>
 
     </VerticalStackLayout>

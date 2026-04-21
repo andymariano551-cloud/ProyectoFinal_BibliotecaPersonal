@@ -1,4 +1,4 @@
-using ProyectoFinal_BibliotecaPersonal.Models;
+using ProyectoFinal_BibliotecaPersonal.ViewModels;
 
 namespace ProyectoFinal_BibliotecaPersonal.Views;
 
@@ -7,30 +7,21 @@ public partial class LibraryPage : ContentPage
     public LibraryPage()
     {
         InitializeComponent();
-
-        listaLibros.ItemsSource = new List<Book>
-        {
-            new Book
-            {
-                Title = "El Psicoanalista",
-                Author = "John Katzenbach",
-                Genre = "Thriller",
-                Year = 2002,
-                IsRead = true
-            },
-            new Book
-            {
-                Title = "Cien años de soledad",
-                Author = "Gabriel García Márquez",
-                Genre = "Realismo Mágico",
-                Year = 1967,
-                IsRead = false
-            }
-        };
     }
 
-    private async void OnAddBookClicked(object sender, EventArgs e)
+    // Este método se dispara cada vez que entras a la pestaña o vuelves atrás
+    protected override void OnAppearing()
     {
-        await Shell.Current.GoToAsync(nameof(AddBookPage));
+        base.OnAppearing();
+
+        // Verificamos si el BindingContext es nuestro ViewModel
+        if (BindingContext is LibraryViewModel vm)
+        {
+            // Ejecutamos el comando de cargar libros para refrescar la lista
+            if (vm.LoadBooksCommand.CanExecute(null))
+            {
+                vm.LoadBooksCommand.Execute(null);
+            }
+        }
     }
 }
