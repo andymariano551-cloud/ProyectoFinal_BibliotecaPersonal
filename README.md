@@ -43,13 +43,16 @@ Clic derecho sobre el proyecto principal
 Selecciona: “Establecer como proyecto de inicio”
 Presiona F5
 o
-Haz clic en el botón verde ▶️ “Iniciar”
+Haz clic en el botón verde  “Iniciar”
 
 
 SCREENSHOTS PRINCIPALES
 
+
+
  ## Pantalla principal
 ![Home](imagenes/imagen4.jpeg)
+
 
 ## Agregar Libros
 ![Add Book](imagenes/imagen3.jpeg)
